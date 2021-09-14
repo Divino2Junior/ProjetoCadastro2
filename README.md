@@ -28,3 +28,6 @@ O funcionamento do Crud é bem simples:
     ---------------------------------------------------------------------------------------------------------------------------- 
     
     Nos botões Salvar e Excluir da tela Cadastro, sempre antes de alguma ação irá aparecer um MessageButtons para confirmar o salvamento ou a exclusão.
+    -----------------------------------------------------------------------------------------------------------------------------
+    Para o funcionamento com o bancos de dados, será necessario conectar o Servidor "(localdb)\MSSQLLocalDB" (servidor padrão do sql) pelo Azure ou propio Visual Studio,
+     inserior os arquivos Cadastro.ldf e Cadastro.mdf na pasta do servidor. Assim, deixando o servidor online para que a aplicação possa funcionar.
